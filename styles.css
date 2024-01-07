@@ -114,3 +114,7 @@ button:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+@media (min-width 576px){
+width: 550px;
+heigth: 400px;
+}
