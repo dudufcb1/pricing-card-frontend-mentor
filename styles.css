@@ -51,7 +51,7 @@ body {
   padding: 25px;
   background-color: #2bb3b1;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   height: 100%;
 
   display: inline-block;
@@ -60,7 +60,7 @@ body {
   padding: 25px;
   background-color: #a197bd;
   vertical-align: top;
-  width: 50%;
+  width: 100%;
   height: 100%;
   display: inline-block;
 }
