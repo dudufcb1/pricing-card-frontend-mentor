@@ -1,0 +1,116 @@
+/* normalize css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+h2,
+h4,
+p {
+  margin: 0;
+}
+body {
+  padding: 20px;
+}
+.card {
+  width: 600px;
+  height: 400px;
+  box-shadow: 0px 2px 9px 1px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.top {
+  padding: 25px;
+  width: 100%;
+  height: 45%;
+}
+.top h2 {
+  color: #2bb3b1;
+  margin-bottom: 20px;
+}
+.top h4 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+.top p {
+  color: #98a6bd;
+}
+
+.bottom {
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+
+.bottom-left {
+  padding: 25px;
+  background-color: #2bb3b1;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+
+  display: inline-block;
+}
+.bottom-right {
+  padding: 25px;
+  background-color: #a197bd;
+  vertical-align: top;
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+}
+.bottom-right ul {
+  list-style: none;
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+.bottom-right h4 {
+  margin: 0;
+}
+
+button {
+  color: white;
+  text-shadow: 4px 0px 4px rgba(0, 0, 0, 0.2);
+  background-color: #ebe83f;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.price-number {
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.price-text {
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  opacity: 0.7;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.bottom p {
+  font-size: 0.8rem;
+  margin-bottom: 35px;
+}
+
+.bottom h4 {
+  margin-bottom: 10px;
+}
+
+.bottom-r-h4 {
+  margin: 0;
+}
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
